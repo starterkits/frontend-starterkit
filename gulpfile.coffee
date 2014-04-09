@@ -67,9 +67,8 @@ gulp.task 'css', ->
 
 # Copy vendor scripts
 gulp.task 'vendor', ->
-  vendor.map (files) ->
-    gulp.src files
-    .pipe gulp.dest "#{dist}js/vendor/"
+  gulp.src vendor, read: false
+  .pipe gulp.dest "#{dist}js/vendor/"
 
 
 # Compile CoffeeScript
