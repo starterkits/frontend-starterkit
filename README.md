@@ -2,7 +2,6 @@ Frontend StarterKit is a barebones framework with [gulp](http://gulpjs.com/) con
 
 CoffeeScript, SCSS, Zurb Foundation, and Bower are installed and configured.
 
-By default, CSS files are included by requiring them in JavaScript files via webpack magic. This reduces network latency and allows webpack to intelligently manage which files are actually required. See [src/js/head.coffee](https://github.com/starterkits/frontend-starterkit-minimal/blob/master/src/js/head.coffee).
 
 
 # Install
@@ -10,22 +9,30 @@ By default, CSS files are included by requiring them in JavaScript files via web
 ```bash
 git clone https://github.com/starterkits/frontend-starterkit.git
 cd frontend-starterkit
+npm install -g bower
 npm install
 ```
 
 # Development
 
 ```bash
-# Run webpack-dev-server
+# Build and watch assets
 gulp
 
-# Or manually run webpack if needed
-webpack -d --colors
+# Open index page in browser
+open dist/index.html
 ```
 
 # Production
 
 ```bash
 # Compile assets for production
+gulp clean
 gulp build
 ```
+
+
+# Resources
+
+[HTML2Jade](http://html2jade.org/) – copy and paste html to conver to jade
+
