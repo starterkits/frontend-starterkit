@@ -1,9 +1,9 @@
 {
-  "name": "frontend-starterkit-minimal",
+  "name": "frontend-starterkit",
   "version": "0.0.1",
   "description": "Frontend deveopment framework for node.",
   "author": "Joe Johnston",
-  "homepage": "https://github.com/starterkits/frontend-starterkit-minimal",
+  "homepage": "https://github.com/starterkits/frontend-starterkit",
   "keywords": [
     "node",
     "coffeescript",
@@ -12,14 +12,14 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/starterkits/frontend-starterkit-minimal.git"
+    "url": "git://github.com/starterkits/frontend-starterkit.git"
   },
-  "bugs": "https://github.com/starterkits/frontend-starterkit-minimal/issues",
-  "contributors": "https://github.com/starterkits/frontend-starterkit-minimal/graphs/contributors",
+  "bugs": "https://github.com/starterkits/frontend-starterkit/issues",
+  "contributors": "https://github.com/starterkits/frontend-starterkit/graphs/contributors",
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://raw.github.com/starterkits/frontend-starterkit-minimal/master/LICENSE"
+      "url": "https://raw.github.com/starterkits/frontend-starterkit/master/LICENSE"
     }
   ],
   "scripts": {

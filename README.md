@@ -1,6 +1,4 @@
-Frontend StarterKit is a barebones framework with [gulp](http://gulpjs.com/) and [webpack](http://webpack.github.io/) fully configured for rapid development.
-
-Webpack runs webpack-dev-server in development for on-the-fly compilation of source file changes. It can also compile assets for production. 
+Frontend StarterKit is a barebones framework with [gulp](http://gulpjs.com/) configured for rapid development.
 
 CoffeeScript, SCSS, Zurb Foundation, and Bower are installed and configured.
 
@@ -10,9 +8,8 @@ By default, CSS files are included by requiring them in JavaScript files via web
 # Install
 
 ```bash
-git clone https://github.com/starterkits/frontend-starterkit-minimal.git
-cd frontend-starterkit-minimal
-npm install -g webpack-dev-server bower
+git clone https://github.com/starterkits/frontend-starterkit.git
+cd frontend-starterkit
 npm install
 ```
 
