@@ -40,6 +40,7 @@ gulp.task 'build', [
   'vendor'
   'scripts'
   'html'
+  'assets'
 ]
 
 
@@ -88,6 +89,12 @@ gulp.task 'html', ->
     pretty: true
   .pipe gulp.dest dist
 #  .pipe livereload server
+
+
+# Copy images and font folders
+gulp.task 'assets', ->
+  gulp.src ["#{src}images", "#{src}fonts"], read: false
+  .pipe gulp.dest dist
 
 
 # gulp.task 'minify', ->
