@@ -1,1 +1,2 @@
-alert("Touch: #{Modernizr.touch}")
+alert "Touch: #{Modernizr.touch}"
+$(document).foundation()
